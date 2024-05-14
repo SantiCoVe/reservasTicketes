@@ -1,0 +1,21 @@
+create database pruebaDesde0;
+use pruebaDesde0;
+
+drop table if exists users;
+
+create table users(
+email varchar(30),
+password varchar(60),
+nombres varchar(30),
+apellidos varchar(30),
+direccion varchar(50)
+);
+
+create table ticketes(
+id_tickete varchar(30),
+destinoTickete
+);
+
+SELECT password FROM users WHERE email = "santi@gmail.com";
+
+select * from users;
